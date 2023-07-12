@@ -9,7 +9,7 @@ const Testimonial = () => {
           {/* <!-- Title --> */}
           <div className="mb-8">
             <h2 className="mb-2 text-3xl font-bold text-gray-800 lg:text-4xl ">
-              It's all about speed
+              It&apos;s all about speed
             </h2>
             <p className="text-gray-600 ">
               from collectiong feedback to acting on it - insightCaptin is

@@ -273,10 +273,10 @@ const FAQ = () => {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <p className="text-gray-800 ">
-                If you lose the link for a theme you purchased, don't panic!
-                We've got you covered. You can login to your account, tap your
+                If you lose the link for a theme you purchased, don&apos;t panic!
+                We&apos;ve got you covered. You can login to your account, tap your
                 avatar in the upper right corner, and tap Purchases. If you
-                didn't create a login or can't remember the information, you can
+                didn&apos;t create a login or can&apos;t remember the information, you can
                 use our handy Redownload page, just remember to use the same
                 email you originally made your purchases with.
               </p>

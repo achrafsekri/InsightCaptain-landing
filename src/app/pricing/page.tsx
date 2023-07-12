@@ -2514,7 +2514,7 @@ const Page = () => {
                   className="inline-flex items-center justify-between w-full pb-3 font-semibold text-left text-gray-800 transition hs-accordion-toggle group gap-x-3 md:text-lg hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400"
                   aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
                 >
-                  How does Preline's pricing work?
+                  How does Preline&apos;s pricing work?
                   <svg
                     className="block w-3 h-3 text-gray-600 hs-accordion-active:hidden group-hover:text-gray-500 dark:text-gray-400"
                     width="16"
@@ -2662,10 +2662,10 @@ const Page = () => {
                 >
                   <div className="pr-8">
                     <p className="text-gray-600 dark:text-gray-400">
-                      If you lose the link for a theme you purchased, don't
-                      panic! We've got you covered. You can login to your
+                      If you lose the link for a theme you purchased, don&apos;t
+                      panic! We&apos;ve got you covered. You can login to your
                       account, tap your avatar in the upper right corner, and
-                      tap Purchases. If you didn't create a login or can't
+                      tap Purchases. If you didn&apos;t create a login or can&apos;t
                       remember the information, you can use our handy Redownload
                       page, just remember to use the same email you originally
                       made your purchases with.

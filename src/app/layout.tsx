@@ -20,6 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   useEffect(() => {
+    // @ts-ignore
     import("preline");
   }, []);
   return (
