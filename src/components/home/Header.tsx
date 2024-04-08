@@ -1,8 +1,9 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
   return (
-    <div className="relative px-4 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
+    <div className="relative px-4 sm:px-6 lg:px-8">
       {/* <!-- Grid --> */}
       <div className="grid gap-4 mt-4 md:grid-cols-2 md:gap-8 xl:gap-20 md:items-center">
         <div>
@@ -195,10 +196,12 @@ const Header = () => {
         {/* <!-- End Col --> */}
 
         <div className="relative ml-4">
-          <img
+          <Image
             className="w-full rounded-md"
-            src="https://images.unsplash.com/photo-1665686377065-08ba896d16fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&h=800&q=80"
+            src="https://images.unsplash.com/photo-1522156373667-4c7234bbd804?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1883&q=80"
             alt="Image Description"
+            width={500}
+            height={500}
           />
           <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 mr-4 -ml-4 lg:mt-6 lg:-mb-6 lg:mr-6 lg:-ml-6 "></div>
 

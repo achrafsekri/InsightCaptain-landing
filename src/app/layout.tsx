@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <Script src="../../node_modules/preline/dist/preline.js" />
       <body className={inter.className}>
-        <div className="relative w-screen min-h-screen overflow-hidden">
+        <div className="relative w-screen min-h-screen overflow-hidden bg-theme-background">
           <NavBar />
           <div
             aria-hidden="true"
@@ -36,7 +36,7 @@ export default function RootLayout({
             <div className="bg-blue-200 opacity-30 blur-3xl w-[1036px] h-[600px] "></div>
             <div className="bg-slate-200 opacity-90 blur-3xl w-[577px] h-[300px] transform translate-y-32 "></div>
           </div>
-          <main>{children}</main>
+          <main className="container relative mx-auto overflow-hidden max-w-7xl">{children}</main>
           <Footer />
         </div>
       </body>

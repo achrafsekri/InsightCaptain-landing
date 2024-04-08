@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="px-4 py-10 mx-auto mt-16 max-w-7xl sm:px-6 lg:px-8 lg:py-14">
+    <div className="px-4 py-10 mt-16 sm:px-6 lg:px-8 lg:py-14">
       {/* <!-- Title --> */}
       <div className="max-w-2xl mx-auto mb-10 text-center lg:mb-14">
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight ">
@@ -220,9 +220,9 @@ const FAQ = () => {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
             >
               <p className="text-gray-800 ">
-                Protecting the data you trust to InsightCaptin is our first priority.
-                This part is really crucial in keeping the project in line to
-                completion.
+                Protecting the data you trust to InsightCaptin is our first
+                priority. This part is really crucial in keeping the project in
+                line to completion.
               </p>
             </div>
           </div>
@@ -273,12 +273,13 @@ const FAQ = () => {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <p className="text-gray-800 ">
-                If you lose the link for a theme you purchased, don&apos;t panic!
-                We&apos;ve got you covered. You can login to your account, tap your
-                avatar in the upper right corner, and tap Purchases. If you
-                didn&apos;t create a login or can&apos;t remember the information, you can
-                use our handy Redownload page, just remember to use the same
-                email you originally made your purchases with.
+                If you lose the link for a theme you purchased, don&apos;t
+                panic! We&apos;ve got you covered. You can login to your
+                account, tap your avatar in the upper right corner, and tap
+                Purchases. If you didn&apos;t create a login or can&apos;t
+                remember the information, you can use our handy Redownload page,
+                just remember to use the same email you originally made your
+                purchases with.
               </p>
             </div>
           </div>

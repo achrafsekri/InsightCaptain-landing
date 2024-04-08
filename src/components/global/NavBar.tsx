@@ -1,22 +1,19 @@
 import { routes } from "@/shared/routes";
 import Link from "next/link";
 import React from "react";
-import { GiShipWheel } from "react-icons/gi";
+import { GiCrystalGrowth  } from "react-icons/gi";
 
 const NavBar = () => {
   return (
     <header className="z-50 flex flex-wrap w-full py-3 mx-auto mt-2 text-sm max-w-7xl md:justify-start md:flex-nowrap md:py-0">
-      <nav
-        className="w-full px-4 md:px-6 lg:px-8"
-        aria-label="Global"
-      >
+      <nav className="w-full px-4 md:px-6 lg:px-8" aria-label="Global">
         <div className="relative md:flex md:items-center md:justify-between">
           <div className="flex items-center justify-between">
             <Link href="/">
               <span className="flex items-center gap-x-3">
-                <GiShipWheel className="w-10 h-10 text-blue-600" />
-                <span className="text-xl font-bold text-gray-800">
-                  Insight<span>Captin</span>
+                <GiCrystalGrowth  className="w-10 h-10 text-theme-primary" />
+                <span className="text-xl font-bold text-theme-primary">
+                  Linanmoo
                 </span>
               </span>
             </Link>
